@@ -1,0 +1,20 @@
+THREADS: 32
+SAMPLE: ["Cvi-0_deepsignalDNAmeth_10kb"]
+FEATURES:
+      chrName: ["Chr1",
+                "Chr2",
+                "Chr3",
+                "Chr4",
+                "Chr5"]
+MAPPING:
+      reference: "data/index/Cvi-0.ragtag_scaffolds"
+COVERAGE:
+      regionBodyLength: 180
+      startLabel: "Start"
+      endLabel: "End"
+      upstream: 2000
+      downstream: 2000
+      flankName: "2kb"
+      binSize: 10
+      binName: "10bp"
+      sortRegions: "keep"
