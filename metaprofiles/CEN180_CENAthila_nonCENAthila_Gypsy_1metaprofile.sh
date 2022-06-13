@@ -1,0 +1,15 @@
+#!/bin/bash
+
+source activate R-4.0.0
+
+./CEN180_CENAthila_nonCENAthila_Gypsy_1metaprofile.R 'Chr1,Chr2,Chr3,Chr4,Chr5' both 180 2000 2000 2000 '2kb' 10 10 10bp 10bp '0.02,0.96' 'Col-0_CENH3_PE150_Rep1_ChIP' 'Col-0_CENH3_PE150_Rep1_input' 'CENH3_PE150_mn359_20220420/snakemake_ChIPseq_Col-0.ragtag_scaffolds' 'CENH3_PE150_mn359_20220420/snakemake_ChIPseq_Col-0.ragtag_scaffolds' 'Col-0 CENH3' 'Col-0 input' 'darkorange1' 'darkorange1' 'Col-0.ragtag_scaffolds'
+
+#./CEN180_CENAthila_nonCENAthila_Gypsy_1metaprofile.R 'Chr1,Chr2,Chr3,Chr4,Chr5' both 180 2000 2000 2000 '2kb' 10 10 10bp 10bp '0.02,0.96' 'Cvi-0_CENH3_PE150_Rep1_ChIP' 'Cvi-0_CENH3_PE150_Rep1_input' 'CENH3_PE150_mn359_20220420/snakemake_ChIPseq_Cvi-0.ragtag_scaffolds' 'CENH3_PE150_mn359_20220420/snakemake_ChIPseq_Cvi-0.ragtag_scaffolds' 'Cvi-0 CENH3' 'Cvi-0 input' 'darkorchid1' 'darkorchid1' 'Cvi-0.ragtag_scaffolds'
+
+#./CEN180_CENAthila_nonCENAthila_Gypsy_1metaprofile.R 'Chr1,Chr2,Chr3,Chr4,Chr5' both 180 2000 2000 2000 '2kb' 10 10 10bp 10bp '0.02,0.96' 'Ler-0_CENH3_PE150_Rep1_ChIP' 'Ler-0_CENH3_PE150_Rep1_input' 'CENH3_PE150_mn359_20220420/snakemake_ChIPseq_Ler-0_110x.ragtag_scaffolds' 'CENH3_PE150_mn359_20220420/snakemake_ChIPseq_Ler-0_110x.ragtag_scaffolds' 'Ler-0 CENH3' 'Ler-0 input' 'forestgreen' 'forestgreen' 'Ler-0_110x.ragtag_scaffolds'
+
+#./CEN180_CENAthila_nonCENAthila_Gypsy_1metaprofile.R 'Chr1,Chr2,Chr3,Chr4,Chr5' both 180 2000 2000 2000 '2kb' 10 10 10bp 10bp '0.02,0.96' 'Tanz-1_CENH3_PE150_Rep1_ChIP' 'Tanz-1_CENH3_PE150_Rep1_input' 'CENH3_PE150_mn359_20220420/snakemake_ChIPseq_Tanz-1.patch.scaffold.Chr' 'CENH3_PE150_mn359_20220420/snakemake_ChIPseq_Tanz-1.patch.scaffold.Chr' 'Tanz-1 CENH3' 'Tanz-1 input' 'dodgerblue1' 'dodgerblue1' 'Tanz-1.patch.scaffold.Chr'
+
+#./CEN180_CENAthila_nonCENAthila_Gypsy_1metaprofile.R 'Chr1,Chr2,Chr3,Chr4,Chr5' both 180 2000 2000 2000 '2kb' 10 10 10bp 10bp '0.02,0.96' 'Col-0_CENH3_PE150_Rep1_ChIP,Cvi-0_CENH3_PE150_Rep1_ChIP,Ler-0_CENH3_PE150_Rep1_ChIP,Tanz-1_CENH3_PE150_Rep1_ChIP' 'Col-0_CENH3_PE150_Rep1_input,Cvi-0_CENH3_PE150_Rep1_input,Ler-0_CENH3_PE150_Rep1_input,Tanz-1_CENH3_PE150_Rep1_input' 'CENH3_PE150_mn359_20220420/snakemake_ChIPseq_Col-0.ragtag_scaffolds,CENH3_PE150_mn359_20220420/snakemake_ChIPseq_Cvi-0.ragtag_scaffolds,CENH3_PE150_mn359_20220420/snakemake_ChIPseq_Ler-0_110x.ragtag_scaffolds,CENH3_PE150_mn359_20220420/snakemake_ChIPseq_Tanz-1.patch.scaffold.Chr' 'CENH3_PE150_mn359_20220420/snakemake_ChIPseq_Col-0.ragtag_scaffolds,CENH3_PE150_mn359_20220420/snakemake_ChIPseq_Cvi-0.ragtag_scaffolds,CENH3_PE150_mn359_20220420/snakemake_ChIPseq_Ler-0_110x.ragtag_scaffolds,CENH3_PE150_mn359_20220420/snakemake_ChIPseq_Tanz-1.patch.scaffold.Chr' 'Col-0 CENH3,Cvi-0 CENH3,Ler-0 CENH3,Tanz-1 CENH3' 'Col-0 input,Cvi-0 input,Ler-0 input,Tanz-1 input' 'darkorange1,darkorchid1,forestgreen,dodgerblue1' 'darkorange1,darkorchid1,forestgreen,dodgerblue1' 'Col-0.ragtag_scaffolds,Cvi-0.ragtag_scaffolds,Ler-0_110x.ragtag_scaffolds,Tanz-1.patch.scaffold.Chr'
+
+conda deactivate
